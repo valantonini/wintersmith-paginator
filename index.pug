@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  header
+    h1 posts
+  section.post-list
+    each article in articles
+      article
+        header
+          a(href=article.url)= moment.utc(article.date).format('DD MMMM YYYY')
+          a(href=article.url)
+            h1= article.title
+          a(href=article.url) continue reading
+  section
+    nav.pagination.is-centered(role="navigation", aria-label="pagination")
+      if prevPage
+        a.pagination-previous(href=prevPage.url) newer
+      if nextPage
+        a.pagination-next(href=nextPage.url) older
+      - var i = 0
+      ul.pagination-list
+        while i < pageCount
+          - i = i + 1
+          - var url = i == 1 ? "/" : `/page/${i}`
+          - var css = i == pageNum ? "pagination-link is-current" : "pagination-link";
+          li
+            a(href=url, class=css)=i
