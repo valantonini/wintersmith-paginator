@@ -1,10 +1,17 @@
 # wintersmith-paginator
 A modified JS implementation of [Wintersmith's](https://wintersmith.io "Wintersmith") paginator.coffee.
 
+Requires wintersmith-contents
+
+```bash
+npm install wintersmith-contents --save
+```
+
 Add the paginator.js to the plugins folder.
 
 ```JSON
   "plugins": [
+    "wintersmith-contents",
     "./plugins/paginator.js"
   ]
 ```
