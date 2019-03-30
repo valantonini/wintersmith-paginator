@@ -1,0 +1,28 @@
+{
+  "name": "wintersmith-paginator",
+  "version": "0.0.1",
+  "description": "javascript implementation of wintersmith's paginator with additional pageCount field",
+  "main": "dist/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valantonini/wintersmith-paginator.git"
+  },
+  "keywords": [
+    "wintersmith-plugin",
+    "wintersmith",
+    "paginator"
+  ],
+  "author": "val antonini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valantonini/wintersmith-paginator/issues"
+  },
+  "homepage": "https://github.com/valantonini/wintersmith-paginator#readme",
+  "dependencies": {
+    "wintersmith": "^2.5.0",
+    "wintersmith-contents": "^1.0.0"
+  }
+}

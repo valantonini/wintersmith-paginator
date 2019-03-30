@@ -5,14 +5,15 @@ Requires wintersmith-contents
 
 ```bash
 npm install wintersmith-contents --save
+npm install wintersmith paginator
 ```
 
-Add the paginator.js to the plugins folder.
+config.json
 
 ```JSON
   "plugins": [
     "wintersmith-contents",
-    "./plugins/paginator.js"
+    "wintersmith-paginator"
   ]
 ```
 
