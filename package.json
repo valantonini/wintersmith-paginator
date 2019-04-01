@@ -4,7 +4,7 @@
   "description": "javascript implementation of wintersmith's paginator with additional pageCount field",
   "main": "dist/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
