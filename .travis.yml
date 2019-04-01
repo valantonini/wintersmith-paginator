@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "10"
+env:
+  global:
+  - USER="valantonini"
+  - EMAIL="val.antonini@gmail.com"
+  - REPO="valantonini.github.io"
+  - GH_REPO="github.com/${USER}/${REPO}.git"
+install:
+  - npm install
