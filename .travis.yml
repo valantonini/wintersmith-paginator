@@ -12,11 +12,10 @@ install:
 after_success:
   - npm version $MAJOR_VERSION_NUMBER.$MINOR_VERSION_NUMBER.$TRAVIS_BUILD_NUMBER
   - git commit --all --message "updated version"
-  #- git remote rm origin
-  #- git remote add origin "https://${GH_TOKEN}@${GH_REPO}"
+  - git remote rm origin
+  - git remote add origin "https://${GH_TOKEN}@${GH_REPO}"
   - git config user.email ${EMAIL}
   - git config user.name ${USER}
   #- git add --all
   #- git fetch
-  - git commit -m "updated"
-  - git push "https://${GH_TOKEN}@${GH_REPO}" master > /dev/null 2>&1
+  - git push "https://${GH_TOKEN}@${GH_REPO}" master 
