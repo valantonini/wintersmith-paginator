@@ -1,4 +1,8 @@
 # wintersmith-paginator
+
+![npm](https://img.shields.io/npm/v/wintersmith-paginator.svg)
+![npm](https://img.shields.io/npm/dt/wintersmith-paginator.svg)
+
 A modified JS implementation of [Wintersmith's](https://wintersmith.io "Wintersmith") paginator.coffee.
 
 Requires wintersmith-contents
