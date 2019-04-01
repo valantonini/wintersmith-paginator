@@ -1,5 +1,6 @@
 # wintersmith-paginator
 
+[![Build Status](https://travis-ci.org/valantonini/wintersmith-paginator.svg?branch=master)](https://travis-ci.org/valantonini/wintersmith-paginator)
 ![npm](https://img.shields.io/npm/v/wintersmith-paginator.svg)
 ![npm](https://img.shields.io/npm/dt/wintersmith-paginator.svg)
 
