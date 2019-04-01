@@ -1,6 +1,6 @@
 {
   "name": "wintersmith-paginator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "javascript implementation of wintersmith's paginator with additional pageCount field",
   "main": "dist/",
   "scripts": {
